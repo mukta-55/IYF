@@ -1,60 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>IYF</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <!-- Header -->
-  <header>
-    <h1>Hi, I'm Bob</h1>
-    <p>A Web Developer</p>
-    <a href="#projects" class="btn">View My Work</a>
+
+  <header >
+    <div>
+      <img id="logo" src="/assets/logo.png" alt="Logo">
+    </div>
+    <ul class="header_ul ">
+      <li class="header_li">
+        <a class="header_item" href="./index.html">Home</a>
+      </li>
+      <li class="header_li">
+        <a class="header_item" href="#">Portfolio</a>
+      </li>
+      <li class="header_li">
+        <a class="header_item" href="#">About Me</a>
+      </li>
+      <li class="header_li">
+        <a class="header_item" href="#">Contact</a>
+      </li>
+    </ul>
+    <button class="header_btn">Download CV</button>
   </header>
 
-  <!-- About Section -->
-  <section id="about">
-    <h2>About Me</h2>
-    <p>
-      Curious builder. Problem-solver. Passionate about technology, design, and growth — crafting modern, impactful web
-      experiences with clarity and precision.
-    </p>
-  </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <h3>Project 1</h3>
-        <p><button><a href="#">A carbon footprint calcultor.</a></button></p>
+  <div class="hero">
+    <div>
+      <p class="hero_p">Welcome to me</p>
+      <h1 class="hero_h">
+        I have a <span class="inside_h">Creative design</span> <span>Experience</span>
+      </h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor</p>
+      <button class="hero_btn">Click Me</button>
+      <a href="#">Learn more</a>
       </div>
-      <div class="project-card">
-        <h3>Project 2</h3>
-        <p><a href="#">A Website.</a></p>
+      <div>
+        <img class="hero_image" src="" alt="Image" id="IYF">
       </div>
-      <div class="project-card">
-        <h3>Project 3</h3>
-        <p><a href="#">My GIS visualization project.</a></p>
-      </div>
-    </div>
-  </section>
+  </div>
 
-  <!-- Contact Section -->
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:yourname@email.com">benjaminbob500@gmail.com</a></p>
-    <p>GitHub: <a href="#">github.com/mukta-55</a></p>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 Bob. All rights reserved.</p>
-  </footer>
 </body>
-
 </html>
